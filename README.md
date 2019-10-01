@@ -1,6 +1,6 @@
 # Relógio Digital - Nixie Clock com PIC18F4550
  
- Projeto Relógio Digital com display de Tubos NIXIE.
+ Projeto Relógio Digital com display de Tubos NIXIE. (Made By Hand)
  
  Informa a Hora, Data e Temperatura.
  
