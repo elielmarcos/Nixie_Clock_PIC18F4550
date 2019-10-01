@@ -2,6 +2,8 @@
  
  Projeto Relógio Digital com display de Tubos NIXIE.
  
+ Informa a Hora, Data e Temperatura.
+ 
 <p align="left">
   <img src="nixie (10).jpg" width="400" title="nixie clock">
   <img src="nixie (14).jpg" width="400" title="nixie clock">
@@ -15,4 +17,6 @@
   <img src="imagens/nixie (7).jpg" width="400" title="nixie clock">
   <img src="imagens/nixie (8).jpg" width="400" title="nixie clock">
   <img src="imagens/nixie (9).jpg" width="400" title="nixie clock">
+  <img src="imagens/nixie (12).jpg" width="400" title="nixie clock">
+  <img src="imagens/nixie (13).jpg" width="400" title="nixie clock">
 </p>
