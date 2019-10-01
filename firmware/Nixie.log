@@ -1,0 +1,22 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4550 -DL -O11111115 -fo48 -EH"C:\NIXIE\soft\Nixie\Nixie_EEPROM_DATA.ihex" -N"C:\NIXIE\soft\Nixie\Nixie.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\NIXIE\soft\Nixie\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"C:\NIXIE\soft\Nixie\" "ds1307.c" "ws2812.c" "adc.c" "eeprom.c" "Nixie.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_I2C_b10.mcl"	 
+hint: 0	1139	Available RAM: 2027 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	ds1307.h
+diagnostics: 59	123	Compiled Successfully	ds1307.c
+diagnostics: 0	122	Compilation Started	ws2812.h
+diagnostics: 94	123	Compiled Successfully	ws2812.c
+diagnostics: 0	122	Compilation Started	adc.h
+diagnostics: 43	123	Compiled Successfully	adc.c
+diagnostics: 0	122	Compilation Started	eeprom.h
+diagnostics: 55	123	Compiled Successfully	eeprom.c
+diagnostics: 0	122	Compilation Started	eeprom.h
+diagnostics: 2254	123	Compiled Successfully	Nixie.c
+hint: 1750	1164	Variable 'old_Fading' has been eliminated by optimizer	Nixie.c
+hint: 1750	1164	Variable 'new_Fading' has been eliminated by optimizer	Nixie.c
+hint: 1888	1164	Variable 'number_Cathode_Poisoning' has been eliminated by optimizer	Nixie.c
+diagnostics: 0	127	All files Compiled in 2516 ms	 
+hint: 0	1144	Used RAM (bytes): 1562 (77%)  Free RAM (bytes): 465 (23%)	Used RAM (bytes): 1562 (77%)  Free RAM (bytes): 465 (23%)
+hint: 0	1144	Used ROM (bytes): 30161 (92%)  Free ROM (bytes): 2607 (8%)	Used ROM (bytes): 30161 (92%)  Free ROM (bytes): 2607 (8%)
+diagnostics: 0	125	Project Linked Successfully	Nixie.mcppi
+diagnostics: 0	128	Linked in 516 ms	 
+diagnostics: 0	129	Project 'Nixie.mcppi' completed: 3094 ms	 
+diagnostics: 0	103	Finished successfully: 19 fev 2019, 00:16:49	Nixie.mcppi
