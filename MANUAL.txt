@@ -1,0 +1,63 @@
+EEPROM
+==================================
+00 - 00 01 00 00 00 00 00 32 00 0A  // Mode12h, Beep, BackLight, R, G, B, LDR, Brilho(50%), Presença, 10s
+0A - 00 01 01 0F 00 00 00 06 00 00  // Presença Auto, Efeito(Normal), Cathode, Intervalo Cathode(15m), AutoOFFON, Auto OFF hora, min, PM, Auto ON hora, min, PM, Alarme
+14 - 07 00 00 FF FF FF FF FF FF FF  // Alarme hora, min, PM, Ajuste Temp(signed char)
+==================================
+
+    0 1 2 3 4 5 6 7 8 9 10 11     12 13 14 15 16 17 18 19 20 21 22 23
+AM 12 1 2 3 4 5 6 7 8 9 10 11  PM 12 1  2  3  4  5  6  7  8  9  10 11
+
+OPERAÇÃO
+Click ENT - Entrar no MENU
+Encoder INC/DEC - HORA
+Encoder INC/DEC - HORA / DATA
+Encoder INC/DEC - HORA / TEMP
+Encoder INC/DEC ou Click ENT - Apresenta HORA em Auto OFF-ON
+
+
+MENU
+
+0. - MENU SAIR
+	0 - Sair do Menu		ok
+
+1. - MENU HORA
+	1 - Formato Hora (.12/24)			ok
+	2 - Ajustar Hora/Minuto/Segundo		ok
+
+2. - MENU DATA	
+	1 - Ajustar Dia/Mês/Ano		ok
+	
+3. - MENU BACKLIGHT
+	1 - BackLight (ON/OFF)	ok
+	2 - Ajustar R			ok
+	3 - Ajustar G			ok
+	4 - Ajustar B			ok
+
+4. - MENU BRILHO
+	1 - LDR Auto Brilho (ON/OFF)	ok
+	2 - Ajustar Brilho Manual		ok
+
+5. - MENU PRESENÇA	
+	1 - Presença (ON/OFF)								ok
+	2 - Ajustar tempo persistência (10s/20s/30s/60s)	ok
+	3 - Presença Auto OFF-ON (ON/OFF)					ok
+	
+6. - MENU EFEITO
+	1 - Efeito Display (Normal/Fade_Cross/Fade_All/Cathode/Scroll/...)	ok
+	2 - Cathode Poisoning (ON/OFF)										ok
+	3 - Ajustar Intervalo Cathode Poisoning (15m/30m/45m/60m/90m)		ok
+	
+7. - MENU AUTO OFF-ON
+	1 - Auto OFF-ON (ON/OFF)			ok
+	2 - Auto OFF Display Hora/Minuto	ok
+	3 - Auto ON Display Hora/Minuto		ok
+
+8. - MENU ALARME
+	1 - Alarme (ON/OFF)					ok
+	2 - Ajustar Alarme Hora/Minuto		ok
+	
+9. - MENU DIVERSOS
+	1 - Beep por Hora (ON/OFF)			ok
+	2 - Ajuste Temperatura (+/- 0.1ºC)
+	3 - Mostrar High Voltage 
